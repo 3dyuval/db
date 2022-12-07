@@ -1,0 +1,50 @@
+{
+"options": [
+    {
+      "id": 1,
+      "fieldName": "Number of visits",
+      "type": "number",
+      "src": "PNR"
+    },
+    {
+      "id": 2,
+      "fieldName": "Number of suitcases",
+      "type": "number",
+      "src": "API"
+    },
+    {
+      "id": 3,
+      "fieldName": "Passport issue date",
+      "type": "date",
+      "src": "PNR"
+    },
+    {
+      "id": 4,
+      "fieldName": "Email address",
+      "type": "string",
+      "src": "PNR"
+    },
+    {
+      "id": 5,
+      "fieldName": "Moodys Category",
+      "label": "Terror",
+      "value": "ter",
+      "type": "enum",
+      "src": "Moodys Category"
+    },
+    {
+      "id": 6,
+      "fieldName": "Moodys Category",
+      "label": "Murder",
+      "value": "mur",
+      "type": "enum",
+      "src": "Moodys Category"
+    },
+    {
+      "id": 7,
+      "fieldName": "Time Period",
+      "type": "date",
+      "src": "API"
+    }
+  ] 
+}
